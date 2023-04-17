@@ -144,7 +144,7 @@ const Login = () => {
                 alt="Google Icon"
                 className="w-6 h-6 mr-2"
               />
-              Google Login
+              Google
             </button>
           </div>
           <div className="flex justify-center items-center mt-6">
