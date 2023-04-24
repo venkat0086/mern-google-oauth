@@ -8,7 +8,7 @@ const Home = ({ userDetails }) => {
   return (
     <div>
       <div className="flex justify-between w-3/4 items-center">
-        <h1>Welcome Home</h1>
+        <h1>{`Welcome Home ${user.firstName}`}</h1>
         <button
           onClick={logout}
           className="bg-indigo-500 text-white px-4 py-2 rounded-md"
